@@ -19,7 +19,7 @@ class UpdateProfileService {
     @inject('UsersRepository')
     private usersRepository: IUsersRepository,
 
-    @inject('HashProvider')
+    @inject('StorageProvider')
     private hashProvider: IHashProvider,
   ) {}
 
