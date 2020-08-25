@@ -1,4 +1,3 @@
-import { object } from '@hapi/joi';
 import ICacheProvider from '../models/ICacheProvider';
 
 interface ICacheData {
